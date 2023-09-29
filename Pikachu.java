@@ -13,14 +13,14 @@ public class Pikachu extends Pokemon implements Electrico {
 
     public String impactTrueno(){
         
-        return [...]
+        return "";
 
     }
 
     public String ondaTrueno(){
         
-        return [...]
-        
+        return "";
+
     }
 
     public String toString(){

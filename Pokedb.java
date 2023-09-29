@@ -6,7 +6,7 @@ public class Pokedb {
 
         ArrayLIst<Pokemon> pokemon = new ArrayList<Pokemon>();
 
-        pokemon.add(new Pikachu())
+        pokemon.add(new Pikachu("Pikachu", "Electrico", 25, 1))
 
     }
 }
