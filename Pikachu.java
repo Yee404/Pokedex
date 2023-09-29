@@ -2,19 +2,31 @@ public class Pikachu extends Pokemon implements Electrico {
 
     private String nombreElectrico;
 
-    public Pikachu(String nombre, String tipo, int numero, int generacion, String impactTrueno, String ondaTrueno){
+    public Pikachu(String nombre, String tipo, int numero, int generacion){
 
         this.nombre = nombre;
         this.tipo = tipo;
         this.numero = numero;
         this.generacion = generacion;
-        this.impactTrueno = impactTrueno;
-        this.ondaTrueno = ondaTrueno;
 
     }
 
-    public String Ataque(){
+    public String impactTrueno(){
         
+        return [...]
+
+    }
+
+    public String ondaTrueno(){
+        
+        return [...]
+        
+    }
+
+    public String toString(){
+        this.nombre;
+        this.impactTrueno;
+        this.ondaTrueno;
     }
 
 }
